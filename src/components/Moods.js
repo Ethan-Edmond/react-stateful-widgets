@@ -48,6 +48,7 @@ export default function Moods() {
   };
   const reset = () => {
     /* STEP 6 */
+    setMood(initialMood);
   };
 
   const style = {
