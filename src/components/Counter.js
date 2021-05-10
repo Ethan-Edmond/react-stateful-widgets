@@ -58,6 +58,9 @@ export default function Counter() {
   };
   const decrement = () => {
     /* STEP 5 */
+    if (count > 0){// modulo stops working below 0, so we shouldn't let this go below 0
+      setCount(count - 1);
+    }
   };
   const reset = () => {
     /* STEP 6 */
