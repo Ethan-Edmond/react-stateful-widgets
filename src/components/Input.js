@@ -46,6 +46,7 @@ export default function Input() {
     const { value } = evt.target;
 
     /* STEP 4 */
+    setInputValue(value);
   };
   const reset = () => {
     /* STEP 5 */
