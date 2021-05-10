@@ -40,6 +40,7 @@ export default function Moods() {
 
   const makeHappy = () => {
     /* STEP 4 */
+    setMood(happyMood);
   };
   const makeSad = () => {
     /* STEP 5 */
